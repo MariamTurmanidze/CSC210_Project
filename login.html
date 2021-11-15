@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+   <body>
+      
+      <form action = "/login" method ="post">
+         <fieldset>
+            <legend>Login</legend>
+            {{ form.hidden_tag() }}
+            
+            <div style = font-size:20px; font-weight:bold; margin-left:150px;>
+               {{ form.email.label }}
+               <br>
+               {{ form.email }}
+               <br>
+               
+               {{ form.password.label }} 
+               <br>{{ form.password }}
+               </br>
+
+               <p>{{ form.remember_me.label }} {{ form.remember_me() }} </p>
+
+               {{ form.submit }}
+            </div>
+            
+         </fieldset>
+      </form>
+
+
+      <p>Don't have an account? <a href="{{ url_for('register') }}">Register here</a></p>
+      
+   </body>
+</html>

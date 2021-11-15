@@ -1,0 +1,232 @@
+{
+	"48389":{
+		"employeeid": 48389,
+        "managerid": 00333 
+	},
+	
+	"13965":{
+		"employeeid": 13965,
+        "managerid": 00333 
+	},
+	
+	"56587":{
+		"employeeid": 56587,
+        "managerid": 04079
+	}, 
+	"64517":{
+		"employeeid": 64517,
+        "managerid": 04079
+	}, 
+	"84432":{
+		"employeeid": 84432,
+        "managerid": 02864
+	}, 
+	"33206" :{
+		"employeeid": 33206,
+        "managerid": 02864
+	},
+	"04079":{
+		"employeeid": 04079,
+        "managerid": 00309
+	}, 
+	"87640":{
+		"employeeid": 87640,
+        "managerid": 01994
+	}, 
+	"53725":{
+		"employeeid": 53725,
+        "managerid": 01994
+	}, 
+	"50970":{
+		"employeeid": 50970,
+        "managerid": 48389
+	}, 
+	"88023":{
+		"employeeid": 88023,
+        "managerid": 48389
+	}, 
+	"98090":{
+		"employeeid": 98090,
+        "managerid": 48389
+	}, 
+	"22191":{
+		"employeeid": 22191,
+        "managerid": 48389
+	}, 
+	"52986":{
+		"employeeid": 52986,
+        "managerid": 48389
+	}, 
+	"17960":{
+		"employeeid": 17960,
+        "managerid": 13965
+	}, 
+	"46627":{
+		"employeeid": 46627,
+        "managerid": 13965
+	}, 
+	"77030":{
+		"employeeid": 77030,
+        "managerid": 13965
+	}, 
+	"32569":{
+		"employeeid": 32569,
+        "managerid": 13965
+	}, 
+	"41471":{
+		"employeeid": 41471,
+        "managerid": 56587 
+	}, 
+	"92127":{
+		"employeeid": 92127,
+        "managerid": 56587 
+	}, 
+	"62988":{
+		"employeeid": 62988,
+        "managerid": 56587 
+	}, 
+	"79469":{
+		"employeeid": 79469,
+        "managerid": 56587 
+	}, 
+	"82559":{
+		"employeeid": 82559,
+        "managerid": 64517
+	},
+	
+	"43204":{
+		"employeeid": 43204,
+        "managerid": 64517
+	},
+	
+	"16946":{
+		"employeeid": 16946,
+        "managerid": 64517
+	},
+	
+	"00309":{
+		"employeeid": 00309,
+        "managerid": NULL
+	},
+	
+	"89998":{
+		"employeeid": 89998,
+        "managerid": 84432
+	},
+	
+	"68172":{
+		"employeeid": 68172,
+        "managerid": 84432
+	},
+	
+	"19396":{
+		"employeeid": 19396,
+        "managerid": 84432
+	},
+	
+	"94324":{
+		"employeeid": 94324,
+        "managerid": 84432
+	},
+	
+	"98510":{
+		"employeeid": 98510,
+        "managerid": 84432
+	},
+	
+	"76834":{
+		"employeeid": 76834,
+        "managerid": 33206 
+	},
+	
+	"01079":{
+		"employeeid": 01079,
+        "managerid": 33206 
+	},
+	
+	"31632":{
+		"employeeid": 31632,
+        "managerid": 33206 
+	},
+	
+	"46746":{
+		"employeeid": 46746,
+        "managerid": 33206 
+	},
+	
+	"10538":{
+		"employeeid": 10538,
+        "managerid": 33206 
+	},
+	
+	"99184":{
+		"employeeid": 99184,
+        "managerid": 87640
+	},
+	
+	"19629":{
+		"employeeid": 19629,
+        "managerid": 87640
+	},
+	
+	"92323":{
+		"employeeid": 92323,
+        "managerid": 87640
+	},
+	
+	"51872":{
+		"employeeid": 51872,
+        "managerid": 87640
+	},
+	
+	"77861":{
+		"employeeid": 77861,
+        "managerid": 87640
+	},
+	
+	"82072":{
+		"employeeid": 82072,
+        "managerid": 53725
+	},
+	
+	"02864":{
+		"employeeid": 02864,
+        "managerid": 00309
+	},
+	
+	"00333":{
+		"employeeid": 00333,
+        "managerid": 00309
+	},
+	
+	"46737":{
+		"employeeid": 46737,
+        "managerid": 53725
+	},
+	
+	"87457":{
+		"employeeid": 87457,
+        "managerid": 53725
+	},
+	
+	"01994":{
+		"employeeid": 01994,
+        "managerid": 00309
+	},
+	
+	"02185":{
+		"employeeid": 02185,
+        "managerid": 53725
+	},
+	
+	"63754":{
+		"employeeid": 63754,
+        "managerid": 53725
+	},
+	
+	"80491":{
+		"employeeid": 80491,
+        "managerid": 64517
+	} 
+
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head> 
+
+		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/stylesedit.css') }}">
+		<body background="{{ url_for('static', filename='img.jpeg') }}" class="center-block">
+    <link href="http://fonts.cdnfonts.com/css/modernspace" rel="stylesheet">
+		<meta charset="utf-8">
+		<title>Project - CSC 210</title>
+
+</head>
+
+   <body>
+
+   	<nav>
+ 		{% if current_user.is_authenticated %}
+    		<p><a class="nav-item nav-link" href="{{ url_for('index') }}">Home</a>
+    		<a class="nav-item nav-link" href="{{ url_for('logout') }}">Logout</a></p>
+  		{% else %}
+  			<p>Welcome to the MMZ Group</p>
+  		{% endif %}
+    <p></p>  
+
+   	</nav>
+
+   	<div class="box prof">
+
+   	<img src="{{url_for('static', filename='profile.png')}}">
+
+  	<h2>Profile Information</h2>
+      
+     <div>
+          <p>Employee ID: {{ current_user.employee_id }}</p>
+          <p>Last Name: {{ current_user.lname }}</p>
+          <p>Frist Name: {{ current_user.fname }}</p>
+          <p>Email: {{ current_user.email }}</p>
+          <p>SSN: {{ current_user.ssn }}</p>
+          <p>Address: {{ current_user.address }}</p>
+          <p>Department: {{ current_user.dep_name }}</p>
+
+     </div>
+
+     </div>
+
+   </body>
+   </html> 

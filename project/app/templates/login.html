@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head> 
+
+      <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/stylesedit.css') }}">
+      <body background="{{ url_for('static', filename='img.jpeg') }}" class="center-block">
+      <link href="http://fonts.cdnfonts.com/css/modernspace" rel="stylesheet">
+
+      <meta charset="utf-8">
+      <title>Project - CSC 210</title>
+
+</head>
+   <body>
+      
+      <form action = "/login" method ="post" class="box">
+            <h2>Login</h2>
+            {{ form.hidden_tag() }}
+            
+            <div style = font-size:20px; font-weight:bold; margin-left:150px;>
+               <br>{{ form.employee_id.label }}
+               
+               {{ form.employee_id }}
+               <br>
+               
+               <br>{{ form.password.label }} 
+               {{ form.password }}
+               </br>
+
+               <p>{{ form.remember_me.label }} {{ form.remember_me() }} </p>
+
+               {{ form.submit }}
+
+               
+      <p>Don't have an account? <a href="{{ url_for('register') }}">Register here</a></p>
+            </div>
+            
+      </form>
+
+
+      
+   </body>
+</html>
